@@ -6,7 +6,7 @@
   "scripts": {
     "test" : "echo \"Erro:nenhum teste especificado\" && exit 1" ,
     "start": "node build/index.js",
-    "build": "tsc",
+    "build": "npm run tsc",
     "local": "tsc -w",
     "dev": "nodemon ./build"
   },
