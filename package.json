@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-    "start": "node index.js",
- 
+    "test" : "echo \"Erro:nenhum teste especificado\" && exit 1" ,
+    "build": "tsc -w",
+    "watch": "tsc -w",
     "dev": "nodemon ./build"
   },
   "author": "",
