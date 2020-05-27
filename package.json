@@ -6,7 +6,7 @@
   "scripts": {
     "test" : "echo \"Erro:nenhum teste especificado\" && exit 1" ,
     "build": "npm run tsc -w",
-    "start": "ts-node src/index.ts",
+    "start": "npm run src/index.ts",
     "dev": "nodemon ./build"
   },
   "author": "",
