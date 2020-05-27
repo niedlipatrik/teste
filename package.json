@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run tsc -w",
-    "start": "npm run build",
-    "dev": "nodemon ./build",
+    "start": "node index.js",
+    "serve": "nodemon index.js",
     "tsc": "tsc",
     "postinstall": "tsc"
 
