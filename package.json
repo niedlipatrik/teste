@@ -6,7 +6,7 @@
   "scripts": {
     "test" : "echo \"Erro:nenhum teste especificado\" && exit 1" ,
     "build": "npm run tsc -w",
-    "watch": "tsc -w",
+    "start": "tsc -w",
     "dev": "nodemon ./build"
   },
   "author": "",
