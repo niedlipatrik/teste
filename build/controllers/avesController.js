@@ -89,4 +89,3 @@ exports.default = avesController;
 // }
 // const avesController = new AvesController;
 // export default avesController;
-//# sourceMappingURL=avesController.js.map

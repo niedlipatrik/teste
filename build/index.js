@@ -33,4 +33,3 @@ class Server {
 }
 const server = new Server();
 server.start();
-//# sourceMappingURL=index.js.map

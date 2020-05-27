@@ -12,4 +12,3 @@ pool.getConnection()
     console.log('DB is Connected');
 });
 exports.default = pool;
-//# sourceMappingURL=database.js.map

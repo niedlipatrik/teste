@@ -19,4 +19,3 @@ class AveRoutes {
     }
 }
 exports.default = new AveRoutes().router;
-//# sourceMappingURL=avesRoutes.js.map
