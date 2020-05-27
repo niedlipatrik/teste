@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.ts",
-    "serve": "nodemon index.js"
-
+    "test" : "echo \"Erro:nenhum teste especificado\" && exit 1" ,
+    "start": "node build/index.js",
+    "build": "tsc",
+    "local": "tsc -w",
+    "dev": "nodemon ./build"
   },
   "author": "",
   "license": "ISC",
