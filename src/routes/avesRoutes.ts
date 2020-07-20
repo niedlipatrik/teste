@@ -16,6 +16,9 @@ class AveRoutes {
         this.router.post('/', avesController.create);
         this.router.put('/:id', avesController.update);
         this.router.delete('/:id', avesController.delete);
+        this.router.get('/disponivel', avesController.searchDisponivel);
+        this.router.get('/indisponivel', avesController.searchIndisponivel);
+        this.router.get('/externo', avesController.searchExterno);
     }
 
 }
