@@ -17,7 +17,7 @@ class FederacoesController {
                         }
                     }
                 )   
-        console.log(listaFederacoes);
+
 
     }
 
